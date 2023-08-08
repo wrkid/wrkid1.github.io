@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Light.eot');
+    src: local('TT Lakes Light'), local('TTLakes-Light'),
+        url('TTLakes-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Light.woff') format('woff'),
+        url('TTLakes-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'TT Lakes';
+}
+
+.mobile_menu {
+    background-color: #ffffff;
+    margin-left: 0;
+    width: 320px;
+    height: 100%;
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+                -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+    padding-bottom: 24px;
+}
+
+.mobile_menu-header {
+    display: flex;
+}
+
+.navigation__button {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.navigation__icon {
+    margin: auto;
+}
+
+.mobile_menu-header-close_button {
+    margin-left: 24px;
+}
+
+.mobile_menu-header-logo {
+    margin-left: 16.73px;
+    align-self: center;
+    size: 100%;
+}
+
+.mobile_menu-header-search_button {
+    margin-left: 78.27px;
+}
+
+.mobile_menu-main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile_menu-main-navigation {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 31.54px;
+}
+
+.mobile_menu-main-navigation-choice {
+    display: flex;
+    margin-left: 24px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-bottom: 32px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.mobile_menu-main-navigation-choice:active, 
+.mobile_menu-main-navigation-choice:checked {
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.mobile_menu-main-navigation-choice:active,
+.mobile_menu-main-navigation-choice:focus,
+.mobile_menu-main-navigation-choice:hover {
+    color: #7E7E82;
+}
+
+.mobile_menu-main-navigation-choice:active{
+    outline: none;
+}
+
+.mobile_menu-main-navigation-choice:hover::before {
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+    content: "";
+    height: 32px;
+    width: 4px;
+    background-color: #41F6D7;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.mobile_menu-main-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    width: 196px;
+    justify-content: space-between;
+}
+
+.mobile_menu-main-footer-menu {
+    display: flex;
+}
+
+.mobile_menu-main-footer-menu a {
+    margin: 0 16px 0 0;
+}
+
+.mobile_menu-main-footer a {
+    color: black;
+    text-decoration: none; 
+}
+
+.mailto {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+}
+
+.tellto {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    margin-top: 12px;
+}
+
+.mobile_menu-footer{
+    display: flex;
+    width: 87px;
+    height: 24px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2;
+}
+
+.mobile_menu-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.mobile_menu-footer a:active,
+.mobile_menu-footer a:focus,
+.mobile_menu-footer a:hover {
+    color: #7E7E82;
+    cursor: pointer;
+}
